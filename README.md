@@ -1,5 +1,7 @@
 # spreadsheet
-> A simple spreadsheet web application that lets you download all data as CSV.
+> A simple spreadsheet web application that lets you download all data as CSV.  
+
+> You can try it out here: [https://ianertson.com/show/spreadsheet/](https://ianertson.com/show/spreadsheet/)
 
 ![demo.png](demo.png)
 
