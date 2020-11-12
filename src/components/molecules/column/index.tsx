@@ -31,7 +31,7 @@ export const ColumnComponent: FC<IColumnProps> = ({
       updateColumn({ data: value, isEditing: false, rowId, id: columnId })
     );
     dispatch(unselectAll());
-  }, [data, dispatch, isEditing]);
+  }, [data, dispatch, isEditing, value]);
 
   const handleChange = useCallback(
     (event: ChangeEvent<HTMLInputElement>) => {
